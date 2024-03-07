@@ -1,0 +1,406 @@
+{
+	"id": 9,
+	"name": "component-library",
+	"variant": "project",
+	"kind": 1,
+	"flags": {},
+	"children": [
+		{
+			"id": 10,
+			"name": "PropType",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 18,
+					"name": "comment",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 19,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 20,
+									"name": "summary",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "type.ts",
+											"line": 5,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "tuple",
+										"elements": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 21,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"children": [
+														{
+															"id": 22,
+															"name": "text",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "type.ts",
+																	"line": 5,
+																	"character": 29
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																22
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "type.ts",
+															"line": 5,
+															"character": 27
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										20
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 5,
+									"character": 14
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 15,
+					"name": "flags",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 16,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 17,
+									"name": "isOptional",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "type.ts",
+											"line": 4,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										17
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 4,
+									"character": 11
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 11,
+					"name": "name",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 2,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 12,
+					"name": "type",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 3,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 13,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 14,
+									"name": "name",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "type.ts",
+											"line": 3,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										14
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 3,
+									"character": 10
+								}
+							]
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						18,
+						15,
+						11,
+						12
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "type.ts",
+					"line": 1,
+					"character": 17
+				}
+			]
+		},
+		{
+			"id": 23,
+			"name": "PropsTableProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "type.ts",
+					"line": 8,
+					"character": 17
+				}
+			],
+			"indexSignature": {
+				"id": 24,
+				"name": "__index",
+				"variant": "signature",
+				"kind": 8192,
+				"flags": {},
+				"sources": [
+					{
+						"fileName": "type.ts",
+						"line": 9,
+						"character": 4
+					}
+				],
+				"parameters": [
+					{
+						"id": 25,
+						"name": "key",
+						"variant": "param",
+						"kind": 32768,
+						"flags": {},
+						"type": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					}
+				],
+				"type": {
+					"type": "reference",
+					"target": 10,
+					"name": "PropType",
+					"package": "component-library"
+				}
+			}
+		}
+	],
+	"groups": [
+		{
+			"title": "Interfaces",
+			"children": [
+				10,
+				23
+			]
+		}
+	],
+	"packageName": "component-library",
+	"symbolIdMap": {
+		"9": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": ""
+		},
+		"10": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "PropType"
+		},
+		"11": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "PropType.name"
+		},
+		"12": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "PropType.type"
+		},
+		"13": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "__type"
+		},
+		"14": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "__type.name"
+		},
+		"15": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "PropType.flags"
+		},
+		"16": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "__type"
+		},
+		"17": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "__type.isOptional"
+		},
+		"18": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "PropType.comment"
+		},
+		"19": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "__type"
+		},
+		"20": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "__type.summary"
+		},
+		"21": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "__type"
+		},
+		"22": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "__type.text"
+		},
+		"23": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "PropsTableProps"
+		},
+		"24": {
+			"sourceFileName": "src/components/PropsTable/type.ts",
+			"qualifiedName": "PropsTableProps.__index"
+		}
+	}
+}

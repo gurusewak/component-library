@@ -1,0 +1,55 @@
+import React from 'react';
+import { Meta, Story } from '@ladle/react';
+import { Button } from '@/components/Button';
+import "@/index.scss";
+import { PropsTable } from "@/components/PropsTable";
+import type from '@/type-schemas/Button/type';
+
+<Meta title="Button Docs"/>
+
+# **Button Component**
+
+The Button component is a versatile button element that can be customized with different variants and sizes;
+
+## **Variants**
+
+You can use the `Button` component with various props to customize its appearance and behavior.
+
+<PropsTable {...type.children[0].children}/>
+
+```jsx
+# Destructive
+<Button variant="destructive"> Destructive </Button>
+```
+
+```jsx
+# Outline
+<Button variant="outline"> Outline </Button>
+```
+
+```jsx
+# Secondary
+<Button variant="secondary"> Secondary </Button>
+```
+
+
+```jsx
+# Ghost
+<Button variant="ghost"> Ghost </Button>
+```
+
+```jsx
+# Link
+<Button variant="link"> Link </Button>
+```
+
+```jsx
+# Small
+<Button variant="default"> Small </Button>
+```
+
+```jsx
+# Large
+<Button variant="default"> Large </Button>
+```
+

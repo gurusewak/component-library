@@ -1,0 +1,61 @@
+import { Meta } from '@ladle/react';
+import type from '@/type-schemas/Table/type';
+import "@/index.scss";
+import { PropsTable } from "@/components/PropsTable";
+
+<Meta title="Table docs" />
+
+# **Table Component Documentation**
+
+## **Description**
+
+This table component displays various notifications for patients along with relevant information such as notification time, time spent, and last call details.
+
+## **Props**
+
+<PropsTable {...type.children[1].type.declaration.children}/>
+
+##  **TableData** 
+An array of objects representing the data to be displayed in the table. Each object contains various properties such as `notification_unread`, `notification_type_icon`, `notification_id`, etc.
+```jsx
+The following props can be passed to the table component:
+
+  - data(Array): An array of objects representing the data to be displayed in the table. Each object should contain the following properties:
+  - notification_unread (boolean): Indicates whether the notification has been read or not.
+  - notification_type_icon (string): URL or path to the icon representing the notification type.
+  - notification_id (string): Unique identifier for the notification.
+  - patient_name (string): Name of the patient associated with the notification.
+  - notification_value (string): Value associated with the notification (e.g. measurement value).
+  - notification_unit (string): Unit of measurement for the notification value.
+  - notification_value_icon (string): URL or path to the icon representing the notification value.
+  - notification_Info (string): Additional information related to the notification.
+  - notification_time (string): Time at which the notification was received.
+  - tracked_time (string): Time spent on tracking the notification.
+  - last_call_date (string): Date of the last call made.
+  - tracked_time_icon (string): URL or path to the icon representing the tracked time.
+  - last_call_icons (string): URL or path to the icon representing the last call details.
+
+```
+  
+## **Usage**
+
+```jsx
+import { Table } from '@components/Table/Table';
+
+  <Table [{
+        notification_unread: boolean
+        notification_type_icon: string
+        notification_id: string
+        patient_name: string
+        notification_value: string
+        notification_unit: string
+        notification_value_icon: string
+        notification_Info: string
+        notification_time: string
+        tracked_time: string
+        last_call_date: string
+        tracked_time_icon: string
+        last_call_icons : string
+    }]
+  />
+

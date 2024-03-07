@@ -1,0 +1,319 @@
+{
+	"id": 0,
+	"name": "component-library",
+	"variant": "project",
+	"kind": 1,
+	"flags": {},
+	"children": [
+		{
+			"id": 1,
+			"name": "ButtonPropsType",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "This will be displayed as an interface"
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 2,
+					"name": "asChild",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "This is test comment for description"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 15,
+							"character": 2
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 3,
+					"name": "label",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "It represents the label of the button"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 17,
+							"character": 2
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 6,
+					"name": "onClick",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "It explains about the onclick functionality"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 23,
+							"character": 2
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 7,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 23,
+									"character": 11
+								}
+							],
+							"signatures": [
+								{
+									"id": 8,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "type.ts",
+											"line": 23,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					},
+					"overwrites": {
+						"type": "reference",
+						"target": -1,
+						"name": "React.ButtonHTMLAttributes.onClick"
+					}
+				},
+				{
+					"id": 5,
+					"name": "size",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "It tells us about the size of the button"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 21,
+							"character": 2
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"overwrites": {
+						"type": "reference",
+						"target": -1,
+						"name": "VariantProps.size"
+					}
+				},
+				{
+					"id": 4,
+					"name": "variant",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "It represents the variant used in the button"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 19,
+							"character": 2
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"overwrites": {
+						"type": "reference",
+						"target": -1,
+						"name": "VariantProps.variant"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						2,
+						3,
+						6,
+						5,
+						4
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "type.ts",
+					"line": 11,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": {
+						"sourceFileName": "node_modules/@types/react/index.d.ts",
+						"qualifiedName": "React.ButtonHTMLAttributes"
+					},
+					"typeArguments": [
+						{
+							"type": "reference",
+							"target": {
+								"sourceFileName": "node_modules/typescript/lib/lib.dom.d.ts",
+								"qualifiedName": "HTMLButtonElement"
+							},
+							"name": "HTMLButtonElement",
+							"package": "typescript"
+						}
+					],
+					"name": "ButtonHTMLAttributes",
+					"package": "@types/react",
+					"qualifiedName": "React.ButtonHTMLAttributes"
+				},
+				{
+					"type": "reference",
+					"target": {
+						"sourceFileName": "node_modules/class-variance-authority/dist/index.d.ts",
+						"qualifiedName": "VariantProps"
+					},
+					"typeArguments": [
+						{
+							"type": "query",
+							"queryType": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "src/components/Button/Button.tsx",
+									"qualifiedName": "buttonVariants"
+								},
+								"name": "buttonVariants",
+								"package": "component-library",
+								"preferValues": true
+							}
+						}
+					],
+					"name": "VariantProps",
+					"package": "class-variance-authority"
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Interfaces",
+			"children": [
+				1
+			]
+		}
+	],
+	"packageName": "component-library",
+	"symbolIdMap": {
+		"0": {
+			"sourceFileName": "src/components/Button/type.ts",
+			"qualifiedName": ""
+		},
+		"1": {
+			"sourceFileName": "src/components/Button/type.ts",
+			"qualifiedName": "ButtonPropsType"
+		},
+		"2": {
+			"sourceFileName": "src/components/Button/type.ts",
+			"qualifiedName": "ButtonPropsType.asChild"
+		},
+		"3": {
+			"sourceFileName": "src/components/Button/type.ts",
+			"qualifiedName": "ButtonPropsType.label"
+		},
+		"4": {
+			"sourceFileName": "src/components/Button/type.ts",
+			"qualifiedName": "ButtonPropsType.variant"
+		},
+		"5": {
+			"sourceFileName": "src/components/Button/type.ts",
+			"qualifiedName": "ButtonPropsType.size"
+		},
+		"6": {
+			"sourceFileName": "src/components/Button/type.ts",
+			"qualifiedName": "ButtonPropsType.onClick"
+		},
+		"7": {
+			"sourceFileName": "src/components/Button/type.ts",
+			"qualifiedName": "__type"
+		},
+		"8": {
+			"sourceFileName": "src/components/Button/type.ts",
+			"qualifiedName": "__type"
+		}
+	}
+}

@@ -1,0 +1,725 @@
+{
+	"id": 26,
+	"name": "component-library",
+	"variant": "project",
+	"kind": 1,
+	"flags": {},
+	"children": [
+		{
+			"id": 49,
+			"name": "TablePropsType",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 50,
+					"name": "items",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 53,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"target": 27,
+							"name": "TableProps",
+							"package": "component-library"
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						50
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "type.ts",
+					"line": 52,
+					"character": 19
+				}
+			]
+		},
+		{
+			"id": 27,
+			"name": "TableProps",
+			"variant": "declaration",
+			"kind": 2097152,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "type.ts",
+					"line": 2,
+					"character": 12
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 28,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 42,
+							"name": "last_call_date",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The date of the last call"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 37,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 44,
+							"name": "last_call_icons",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Icons representing the date of the last call"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 43,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 31,
+							"name": "notification_id",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "It is unique for every patient for every notification"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 10,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 36,
+							"name": "notification_time",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The time patient took on a call"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 25,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 37,
+							"name": "notification_time_tooltip_data",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Tooltip data for notification date and its type"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 28,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "reflection",
+									"declaration": {
+										"id": 38,
+										"name": "__type",
+										"variant": "declaration",
+										"kind": 65536,
+										"flags": {},
+										"children": [
+											{
+												"id": 40,
+												"name": "date",
+												"variant": "declaration",
+												"kind": 1024,
+												"flags": {},
+												"sources": [
+													{
+														"fileName": "type.ts",
+														"line": 30,
+														"character": 6
+													}
+												],
+												"type": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											},
+											{
+												"id": 39,
+												"name": "notification_type",
+												"variant": "declaration",
+												"kind": 1024,
+												"flags": {},
+												"sources": [
+													{
+														"fileName": "type.ts",
+														"line": 29,
+														"character": 6
+													}
+												],
+												"type": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											}
+										],
+										"groups": [
+											{
+												"title": "Properties",
+												"children": [
+													40,
+													39
+												]
+											}
+										],
+										"sources": [
+											{
+												"fileName": "type.ts",
+												"line": 28,
+												"character": 37
+											}
+										]
+									}
+								}
+							}
+						},
+						{
+							"id": 30,
+							"name": "notification_type_icon",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The icon representing the notification type as about lungs or heart and count of steps"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 7,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 34,
+							"name": "notification_unit",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The unit of measurement for the notification value"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 19,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 29,
+							"name": "notification_unread",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Indicates whether the notification is unread or read"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 4,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 33,
+							"name": "notification_value",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The value of the notification tells us the heartrate , respiratory rate and steps count"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 16,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 35,
+							"name": "notification_value_icon",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The icon representing the notification value wheather increase or decrease"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 22,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 32,
+							"name": "patient_name",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The name of the patient associated with the notification"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 13,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 41,
+							"name": "tracked_time",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The time the notification was tracked"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 34,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 43,
+							"name": "tracked_time_icon",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The icon representing the tracked time"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 40,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 45,
+							"name": "voice_mail_tooltip_data",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Tooltip data for voice mail tells us date and notification type"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "type.ts",
+									"line": 46,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "reflection",
+									"declaration": {
+										"id": 46,
+										"name": "__type",
+										"variant": "declaration",
+										"kind": 65536,
+										"flags": {},
+										"children": [
+											{
+												"id": 48,
+												"name": "date",
+												"variant": "declaration",
+												"kind": 1024,
+												"flags": {},
+												"sources": [
+													{
+														"fileName": "type.ts",
+														"line": 48,
+														"character": 6
+													}
+												],
+												"type": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											},
+											{
+												"id": 47,
+												"name": "notification_type",
+												"variant": "declaration",
+												"kind": 1024,
+												"flags": {},
+												"sources": [
+													{
+														"fileName": "type.ts",
+														"line": 47,
+														"character": 6
+													}
+												],
+												"type": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											}
+										],
+										"groups": [
+											{
+												"title": "Properties",
+												"children": [
+													48,
+													47
+												]
+											}
+										],
+										"sources": [
+											{
+												"fileName": "type.ts",
+												"line": 46,
+												"character": 30
+											}
+										]
+									}
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								42,
+								44,
+								31,
+								36,
+								37,
+								30,
+								34,
+								29,
+								33,
+								35,
+								32,
+								41,
+								43,
+								45
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "type.ts",
+							"line": 2,
+							"character": 25
+						}
+					]
+				}
+			}
+		}
+	],
+	"groups": [
+		{
+			"title": "Interfaces",
+			"children": [
+				49
+			]
+		},
+		{
+			"title": "Type Aliases",
+			"children": [
+				27
+			]
+		}
+	],
+	"packageName": "component-library",
+	"symbolIdMap": {
+		"26": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": ""
+		},
+		"27": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "TableProps"
+		},
+		"28": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type"
+		},
+		"29": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.notification_unread"
+		},
+		"30": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.notification_type_icon"
+		},
+		"31": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.notification_id"
+		},
+		"32": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.patient_name"
+		},
+		"33": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.notification_value"
+		},
+		"34": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.notification_unit"
+		},
+		"35": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.notification_value_icon"
+		},
+		"36": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.notification_time"
+		},
+		"37": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.notification_time_tooltip_data"
+		},
+		"38": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type"
+		},
+		"39": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.notification_type"
+		},
+		"40": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.date"
+		},
+		"41": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.tracked_time"
+		},
+		"42": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.last_call_date"
+		},
+		"43": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.tracked_time_icon"
+		},
+		"44": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.last_call_icons"
+		},
+		"45": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.voice_mail_tooltip_data"
+		},
+		"46": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type"
+		},
+		"47": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.notification_type"
+		},
+		"48": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "__type.date"
+		},
+		"49": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "TablePropsType"
+		},
+		"50": {
+			"sourceFileName": "src/components/Table/type.ts",
+			"qualifiedName": "TablePropsType.items"
+		}
+	}
+}
